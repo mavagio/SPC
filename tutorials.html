@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>SPC Tutorials</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="stylesheets/custom.css" media="screen">
+	<!-- Hotjar Tracking Code for https://martinavagyan.github.io/studyprogrammechecker/ -->
+	<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:274873,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">SPC Tutorials</h1>
+      <a href="./index.html" class="btn">Home</a>
+      <a href="#check" class="btn">View on GitHub</a>
+    </section>
+
+    <section class="main-content">
+      <ul>
+<li> <a href="#check">Check student program</a></li>
+<li><a href="#save">Save student report</a>
+<li><a href="#add">Add study program</a>
+</li>
+</ul>
+
+<hr>
+
+<p><img src="https://raw.githubusercontent.com/martinavagyan/StudyProgrammeChecker/master/docs/documentation/img/UI.PNG" alt="SPC">
+<em>Simple desktop application for checking student choices.</em></p>
+
+<h1>
+<a id="check" class="anchor" href="#check" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Check</h1>
+
+<p>First the user loads the curriculum, and student programs. Both are in txt format.</p>
+
+<h3>
+<a id="curriculum" class="anchor" href="#curriculum" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Curriculum</h3>
+
+<p>Each <strong>curriculum</strong> is specific to a department. It can be inserted in two ways. Using the SPC interface, or adding straight to a txt. Each curriculum will be presented to a user as a checkbox tree. Examples can be found <a href="https://github.com/martinavagyan/StudyProgrammeChecker/tree/master/docs/official%20programs/curriculumn_BS">here</a>. </p>
+
+<h3>
+<a id="student-program" class="anchor" href="#student-program" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Student program</h3>
+
+<p>The <strong>student programs</strong> can be downloaded from the the appropriate  ProgRESS WWW page, with .txt extension. After downloading txt's, you can place all the student programs in a regular folder in a computer, and load it to a program. Same as the curriculum field, student field has a list of students with checkboxes. The user can select any student, or all students.</p>
+
+<p>After pressing check button on UI, the result field will contain all the selected students, and the status of their application. Rejected means that there was at least one course that student failed to select or selected in the wrong manner. </p>
+
+<h1>
+<a id="save" class="anchor" href="#save" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Save</h1>
+
+<p>In the result field the user can select any checked students and save the PDF report of the student program.
+The PDF report contains student credentials, and all the courses that the student has selected in their study program.
+Each course in the pdf will have a "status". The status indicates weather the course was inside the student program or not.
+Red icon indicates that the student failed to choose the course for the particular study program, and green indicates that the course is inside the study program in the right place. The program also provides suggestions to students. An example can be found here: <a href="https://github.com/martinavagyan/StudyProgrammeChecker/raw/master/docs/save/Example%20Name.%20-%20Regular%20Track%2020132014%20report.pdf">student report</a></p>
+
+
+<h1>
+<a id="add" class="anchor" href="#add" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add study program</h1>
+
+<p>First press the add program button on the UI. A new window will open up containing all the appropriate fields to fill in.</p>
+
+<img src="https://raw.githubusercontent.com/martinavagyan/StudyProgrammeChecker/master/docs/documentation/img/AddProgUI.PNG" class= "centrimg" alt="Add window">
+
+
+<p>In the provided fields fill in the appropriate information about courses. You can add or remove rows. After all the courses for the given section are filled in, press
+the next button to move on to next section. After all the sections are filled in, enter the name of the program, and select a curriculum to save it in. Lastly press the submit button. <p>
+
+<img src="img/addsubmit.PNG" class= "centrimg" alt="Add window">
+
+<h3>
+<a id="addAlt" class="anchor" href="#curriculum" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add alternative</h3>
+
+<p>Each <strong>course</strong> can have alternative courses. In order to add alternative, 
+select the course and press add alternative. In the window add alternative courses.
+ Similar to the previous window, you may add or remove rows. After which write down the alternative expression.
+An example is provided below. 
+ </p>
+ 
+<img src=" https://raw.githubusercontent.com/martinavagyan/StudyProgrammeChecker/master/docs/documentation/img/AddAltUI.PNG" class= "centrimg" alt="Add window">
+
+In the above example the alternative to a chosen course is a combination of two courses. The student has to have both courses in student program in order to get accepted.
+
+<h3>
+<a id="addAlt" class="anchor" href="#curriculum" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add a new curriculum</h3>
+
+
+<p>In case the new program needs to be saved in a new curriculum, the user can create a curriculum in the last stage of adding the program. 
+After pressing add curriculum button, a small dialog window will open asking to enter curriculum years. After that the program will ask a destination from the user to save the curriculum.</p>
+<img src="img/addcurric.PNG" class= "centrimg" alt="Add curriculum">
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/martinavagyan/StudyProgrammeChecker">Study Programme Checker</a> is maintained by <a href="https://github.com/martinavagyan">Martin Avagyan</a>.</span>
+
+        <span class="site-footer-credits">Department of Computing Science <a href="https://rug.nl">University of Groningen</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>

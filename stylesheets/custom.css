@@ -1,0 +1,10 @@
+.centrimg{
+	display: block;
+	margin: 0 auto;
+	max-width:350px;
+	max-height:500px;
+	width: auto;
+	height: auto;
+}
+.pdfobject-container { height: 500px;}
+.pdfobject { border: 1px solid #666; }
