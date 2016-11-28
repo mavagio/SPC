@@ -1,0 +1,1 @@
+in MS ther is an optional modul in mandatory, how to make it work, one way is to make an or with all the courses in the program

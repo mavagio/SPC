@@ -1,0 +1,47 @@
+[33mcommit e7a7bbdbb40c9dfd339c1977403f9cdf395534a0[m
+Author: martinavagyan <martinavagyan@gmail.com>
+Date:   Thu Nov 26 00:46:00 2015 +0100
+
+    layout update
+
+[33mcommit 40fab4757a45d78163eb7ff434ed986730202cb9[m
+Author: martinavagyan <martinavagyan@gmail.com>
+Date:   Thu Nov 26 00:43:47 2015 +0100
+
+    package refactoring + maven adaptation
+
+[33mcommit 2fb1eb0ac0c446cd7cfd6f35ec96800fd21d105a[m
+Author: martinavagyan <martinavagyan@gmail.com>
+Date:   Wed Nov 25 23:22:11 2015 +0100
+
+    pre-update
+
+[33mcommit 30b0406ecba20780074ec8fe43f284cda8e7bfdf[m
+Author: martinavagyan <martinavagyan@gmail.com>
+Date:   Sun Nov 22 14:53:33 2015 +0100
+
+    View/Tree structure developed
+    
+    Checkbox + Tree
+
+[33mcommit 476a1e333190fe65692e1907980ba2dd7f3c812a[m
+Author: martinavagyan <martinavagyan@gmail.com>
+Date:   Thu Nov 19 19:40:00 2015 +0100
+
+    Writer + interpreter updated/ Checker added
+    
+    program writer, interpreter, checker
+
+[33mcommit f806806d0f18ec9a618babc0e0393c6f738008fc[m
+Author: martinavagyan <martinavagyan@gmail.com>
+Date:   Thu Nov 12 12:14:23 2015 +0100
+
+    Interpreter & basic GUI
+    
+    specific interpreter & draft gui
+
+[33mcommit 274d49a80b9c48162a17adfcf97b8c3010523b55[m
+Author: martinavagyan <martinavagyan@gmail.com>
+Date:   Thu Nov 12 12:12:55 2015 +0100
+
+    :tada: Added .gitattributes & .gitignore files

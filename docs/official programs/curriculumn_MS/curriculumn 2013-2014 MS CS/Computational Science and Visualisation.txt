@@ -1,0 +1,41 @@
+Study Curriculum
+
+
+year   		 20132014
+
+
+Study Programes
+
+Mandatory courses
+*INMWCC-12*	*Web and Cloud Computing*	*5*
+*INMGA-08*	*Geometric Algorithms*	*5*
+*INMMS-08*	*Modelling & Simulation*			    *5*
+*INMIP-08*	*Image Processing*	*5*
+*INMSV-08*	*Scientific Visualisation*	*5*
+INMICS-08	Introduction Computational Science	5
+*INMCOL-08*	*Student Colloquium CS*	*5*
+INMACG-08	Advanced Computer Graphics	5
+INMCV-08	Computer Vision	5
+*INSTAGE15*	*In-company or Research Internship (CS)*	*15*	
+
+
+Guided choice
+*INMPR-08*	*Pattern Recognition*			    *5*
+NACP-11	Computational Physics	5
+*KIM.ML09*	*Machine Learning* 	*5* 
+WIPOM-08	Problemsolving with Mathematica	5
+*INMNN-08*	*Neural Networks*	*5*
+*STMASP-12*	*Statistical Signal Processing (MSc)*	*5*	
+MLBI0801	Self-organisation of social systems	5
+KIM.CMB11	Cognitive Modeling: basic principles and methods	5
+WINM2-08	Numerical Mathematics 2	5
+WINM1-07	Numerical Mathematics 1	5
+
+
+Free choice
+*WMCS13001*	*Computer Ethics*	*5*
+*WMCS14002*	*Geoinformation Systems Engineering*	*5*
+
+Master thesis
+*INMAFST-08*	*Master Thesis*	*15*
+end

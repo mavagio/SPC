@@ -1,0 +1,42 @@
+Study Curriculum
+
+
+year   		 20132014
+
+
+Study Programes
+
+Mandatory courses
+*INMWCC-12*	*Web and Cloud Computing*	*5*
+*KIM.ML09*	*Machine Learning* 	*5* 	
+*INMPR-08*	*Pattern Recognition*	*5*	
+*INMIP-08*	*Image Processing*	*5*
+*INMNN-08*	*Neural Networks*	*5*	
+*INMAR-08*	*Automated Reasoning*	*5*	
+*INMCOL-08*	*Student colloquium CS*	*5*
+*KIM.MAS03*	*Multi-Agent Systems* 	*5*
+*INMCV-08*	*Computer Vision* 	*5*
+*INSTAGE15*	*In-company or Research Internship (CS)*	 *15*
+
+
+Guided choice
+*INMMS-08*	*Modelling & Simulation*			    *5*
+*KIM.ROB03*	*Robotics for AI*	*5*
+*LIX021M05*	*Computational Semantics*	*5*	
+*KIM.CMB11*	*Cognitive Modeling: basic principles and methods*	*5*
+*INMSV-08*	*Scientific Visualisation*	*5*
+*STMASP-12*	*Statistical Signal Processing (MSc)*	*5*		
+*TBROB-12*	*Robotics*		 *5*
+*INMDL-08*	*Dynamic Logic*	*5*	
+*LIX001M05*	*Natural Language Processing*		*5*
+*INMUBC-09*	*Ubiquitous Computing (15/16)*		*5*
+*TBBI05E*	*Business Intelligence*	*5*
+*KIM.SCHR03*	*Handwriting Recognition*		*5*
+
+
+Free choice
+*WMCS13001*	*Computer Ethics*	*5*
+
+Master thesis
+*INMAFST-08*	*Master Thesis*	*15*
+end

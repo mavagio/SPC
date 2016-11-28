@@ -1,0 +1,45 @@
+Study Curriculum
+
+
+year   		 20152016
+
+
+Study Programes
+
+Mandatory courses
+*INMWCC-12*	*Web and Cloud Computing*	*5*	
+*INMPR-08*	*Pattern Recognition*	*5*	
+WMCS14001	Formal Modeling of Communicating Systems		5	or	((INMMS-08	Modelling Simulation	5)	or	(TBROB-12	Robotics	5)	or	(LIX021M05	Computational Semantics	5)	or	(KIM.CMB11	Cognitive Modeling basic principles and methods	5)	or	(INMSV-08	Scientific Visualisation	5)	or	(STMASP-12	Statistical Signal Processing MSc	5)	or	(KIM.ROB03	Robotics for AI	5)	or	(INMDL-08	Dynamic Logic	5)	or	(INMUBC-09	Ubiquitous Computing 15 16	5)	or	(LIX001M05	Natural Language Processing	5)	or	(TBBI05E	Business Intelligence	5)	or	(KIM.SCHR03	Handwriting Recognition	5))
+*INMAR-08*	*Automated Reasoning*	*5*	
+*INMIP-08*	*Image Processing*	*5*
+WMCS15001	Neural Networks and Computational Intelligence	5
+*INMCOL-08*	*Student colloquium CS*	*5*
+*KIM.MAS03*	*Multi-Agent Systems* 	*5*
+*INMCV-08*	*Computer Vision* 	*5*
+*INSTAGE15*	*In-company or Research Internship (CS)*	 *15*
+*KIM.ML09*	*Machine Learning* 	*5* 
+
+
+
+Guided choice
+INMMS-08	Modelling & Simulation			    5
+TBROB-12	Robotics		 5
+LIX021M05	Computational Semantics	5		
+KIM.CMB11	Cognitive Modeling: basic principles and methods	5
+STMASP-12	Statistical Signal Processing (MSc)	5		
+KIM.ROB03	Robotics for AI	5
+INMDL-08	Dynamic Logic	5	
+INMUBC-09	Ubiquitous Computing (15/16)		5
+INMSV-08	Scientific Visualisation	5
+WMCS14001	Formal Modeling of Communicating Systems		5
+LIX001M05	Natural Language Processing		5
+TBBI05E	Business Intelligence	5
+KIM.SCHR03	Handwriting Recognition		5
+
+
+Free choice
+*WMCS13001*	*Computer Ethics*	*5*
+
+Master thesis
+*INMAFST-08*	*Master Thesis*	*15*
+end

@@ -1,0 +1,64 @@
+﻿Study Curriculum
+
+
+year   		 20132014
+
+
+Study Programes
+
+Mandatory courses propaedeutic
+
+*INBIMP-09*	*Imperative Programming B*	*5*	
+*INBOI-08*	*Introduction to Computing Science*	*5*	
+*KIB.ORKI03*	*Introduction to Artificial Intelligence and Cognitive Science* 	*5*	or	(KIB.KI103	Artificial Intelligence 1	5)
+
+*KIB.ILOG03*	*Introduction to Logic*	 *5*	
+*INBIBC-10*	*Introduction to Biomedical Computing*	*5*	or	((KIB.AS03	Autonomous Systems	5)	or	(WBCS14003	Introduction to Scientific Computing	5))
+*WICALKI-11*	*Calculus for AI and CS* 	*5*		or	((WPMA14001	Calculus for Computing Science	5)	and	(WPMA14005	Linear Algebra and Multivariable Calculus for AI and CS))
+
+*INBADC-09*	*Algorithms and Data Structures in C*	*5*	
+*INBCAN-08*	*Computer Architecture and Networks* 	*5*	or	(WBCS14002	Computer Architecture	5)
+*INBDS-08*	*Discrete Structures*	*5*	
+
+*INBPC-08*	*Program Correctness*	*5*
+*INBOGP-08*	*Object Oriented Programming*	*5*
+*WILAICL-09*	*Linear Algebra for AI and CS*	 *5*	or	(WPMA14005	Linear Algebra and Multivariable Calculus for AI and CS	5)
+
+Mandatory courses post-propaedeutic
+
+*INBFP-08*	*Functional Programming*		 *5*
+*WISTAKI-07*	*Statistics*		*5*
+*INBGOP-09*	*Advanced OO Programming*	*5*
+
+*KIB.SENS12*	*Systems and Signals*	*5*
+*INBSASO-09*	*Software Analysis and Design*		*5*
+*INBIIS-08*	*Introduction to Information Systems*	*5*	
+
+*INBSE1-08*	*Software Engineering 1*	*5*
+*INBGAD-10*	*Advanced Algorithms and Data Structures*	*5*	
+*INBITB-08*	*IT-beroepspraktijk*	*5*	or	(WBCS14001	Computing Science Ethical and Professional Issues	5)
+
+*INBSE2-08*	*Software Engineering 2*	*5*
+*INBPAR-08*	*Parallel Computing*		*5*
+*INBTA-08*	*Languages and Machines* 	*5*
+
+*INBNC-08*	*Net-Computing*		*5*
+*INBCG-08*	*Computer Graphics*			    *5*
+*INBVB-08*	*Compiler Construction*		*5*	or	(INBOS-08	Operating Systems	5)
+
+Minor/ electives
+*INBSRE-08*	*Software Requirements Engineering*	*5*
+*INBSEC-08*	*Information Security* 	*5*
+*INBINTS-08*	*Introduction Intelligent Systems* 	*5*
+
+*INBSQT-08*	*Software Quality Assurance & Testing* 	*5*
+*INBKR-08*	*Knowledge Representaion and Reasoning*	*5*
+*INBOS-08*	*Operating Systems*	*5*
+*INBVB-08*	*Compiler Construction*		*5*
+
+*WBCS15001*	*Requirements Engineering and Software Startups*	*5*
+*WBCS15002*	*Short programming project*	*5*
+
+Bachelor's project
+*WBCS13000*	*Bachelor project*	*15*	or	(INBPROJ-08	Bachelor project	5)
+end
