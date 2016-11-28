@@ -36,6 +36,18 @@ Guided choice
 
 Free choice
 *WMCS13001*	*Computer Ethics*	*5*
+*INMMS-08*	*Modelling & Simulation*			    *5*
+*KIM.ROB03*	*Robotics for AI*	*5*
+*LIX021M05*	*Computational Semantics*	*5*	
+*KIM.CMB11*	*Cognitive Modeling: basic principles and methods*	*5*
+*INMSV-08*	*Scientific Visualisation*	*5*
+*STMASP-12*	*Statistical Signal Processing (MSc)*	*5*		
+*TBROB-12*	*Robotics*		 *5*
+*INMDL-08*	*Dynamic Logic*	*5*	
+*LIX001M05*	*Natural Language Processing*		*5*
+*INMUBC-09*	*Ubiquitous Computing (15/16)*		*5*
+*TBBI05E*	*Business Intelligence*	*5*
+*KIM.SCHR03*	*Handwriting Recognition*		*5*
 
 Master thesis
 *INMAFST-08*	*Master Thesis*	*15*

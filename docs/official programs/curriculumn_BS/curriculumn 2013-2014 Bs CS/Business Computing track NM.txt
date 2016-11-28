@@ -14,7 +14,7 @@ Mandatory courses propaedeutic
 
 *KIB.ILOG03*	*Introduction to Logic*	 *5*	
 *INBIBC-10*	*Introduction to Biomedical Computing*	 *5*	or	((KIB.AS03	Autonomous Systems	5)	or	(WBCS14003	Introduction to Scientific Computing	5))
-*WICALKI-11*	*Calculus for AI and CS* 	*5*		or	((WPMA14001	Calculus for Computing Science	5)	and	(WPMA14005	Linear Algebra and Multivariable Calculus for AI and CS	5))
+*WICALKI-11*	*Calculus for AI and CS* 	*5*	or	((WPMA14001	Calculus for Computing Science	5)	and	(WPMA14005	Linear Algebra Multivariable Calculus for AI and CS	5))
 
 *INBADC-09*	*Algorithms and Data Structures in C*	*5*	
 *EBB032A05*	*Business Intelligence*	*5*
@@ -52,7 +52,7 @@ Minor/ electives
 *INBINTS-08*	*Introduction Intelligent Systems* 	*5*
 
 *INBSQT-08*	*Software Quality Assurance & Testing* 	*5*
-*INBKR-08*	*Knowledge Representaion and Reasoning*	*5*
+*INBKR-08*	*Knowledge Representation and Reasoning*	*5*
 *INBOS-08*	*Operating Systems*	*5*
 *INBVB-08*	*Compiler Construction*		*5*
 

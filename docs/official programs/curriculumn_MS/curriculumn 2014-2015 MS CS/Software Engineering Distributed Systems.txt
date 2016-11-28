@@ -16,20 +16,28 @@ Mandatory courses
 *INMCOL-08*	*Student Colloquium*	*5*
 *INSTAGE15*	*In-company or Research Internship (CS)*	*15*	
 INMDSY-08	Distributed Systems	5
+INMASA-10	Advanced Software Architecture	5	or	((INMPR-08	Pattern Recognition	5)	or	(KIM.ML09	Machine Learning	5)	or	(INMSV-08	Scientific Visualisation	5)	or	(TBROB-12	Robotics	5)	or	(TBBI05E	Business Intelligence	5)	or	(TBSE05E	Systems Engineering	5)	or	(EBM630B05	Sustainable and Integrated Inf Systems	5))
 
 Guided choice
-*INMPR-08*	*Pattern Recognition*			    *5*
-*KIM.ML09*	*Machine Learning*	*5*	
-*INMSV-08*	*Scientific Visualisation*	*5*
-*TBROB-12*	*Robotics*		 *5*
-*TBBI05E*	*Business Intelligence*	*5*
-*TBSE05E*	*Systems Engineering*	*5*
-*EBM630B05*	*Sustainable and Integrated Inf. Systems*	*5*
+INMPR-08	Pattern Recognition	5
+KIM.ML09	Machine Learning	5	
+INMSV-08	Scientific Visualisation	5
+TBROB-12	Robotics		 5
+TBBI05E		Business Intelligence	5
+TBSE05E		Systems Engineering	5
+EBM630B05	Sustainable and Integrated Inf. Systems	5
 
 
 Free choice
 *WMCS13001*	*Computer Ethics*	*5*
 *WMCS14002*	*Geoinformation Systems Engineering*	*5*
+INMPR-08	Pattern Recognition	5
+KIM.ML09	Machine Learning	5	
+INMSV-08	Scientific Visualisation	5
+TBROB-12	Robotics		 5
+TBBI05E		Business Intelligence	5
+TBSE05E		Systems Engineering	5
+EBM630B05	Sustainable and Integrated Inf. Systems	5
 
 Master thesis
 *INMAFST-08*	*Master Thesis*	*15*

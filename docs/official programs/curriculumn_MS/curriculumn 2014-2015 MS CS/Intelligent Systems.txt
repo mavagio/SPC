@@ -17,8 +17,6 @@ Mandatory courses
 *INMCV-08*	*Computer Vision* 	*5*
 *INSTAGE15*	*In-company or Research Internship (CS)*	 *15*
 *KIM.ML09*	*Machine Learning* 	*5* 
-WMCS14001	Formal Modeling of Communicating Systems		5	or	((INMMS-08	Modelling Simulation	5)	or	(TBROB-12	Robotics	5)	or	(LIX021M05	Computational Semantics	5)	or	(KIM.CMB11	Cognitive Modeling basic principles and methods	5)	or	(INMSV-08	Scientific Visualisation	5)	or	(STMASP-12	Statistical Signal Processing MSc	5)	or	(KIM.ROB03	Robotics for AI	5)	or	(INMDL-08	Dynamic Logic	5)	or	(INMUBC-09	Ubiquitous Computing 15 16	5)	or	(LIX001M05	Natural Language Processing	5)	or	(TBBI05E	Business Intelligence	5)	or	(KIM.SCHR03	Handwriting Recognition	5))
-
 
 
 Guided choice
@@ -39,6 +37,19 @@ KIM.SCHR03	Handwriting Recognition		5
 
 Free choice
 *WMCS13001*	*Computer Ethics*	*5*
+WMCS14001	Formal Modeling of Communicating Systems		5
+INMMS-08	Modelling & Simulation			    5
+TBROB-12	Robotics		 5
+LIX021M05	Computational Semantics	5		
+KIM.CMB11	Cognitive Modeling: basic principles and methods	5
+INMSV-08	Scientific Visualisation	5
+STMASP-12	Statistical Signal Processing (MSc)	5		
+KIM.ROB03	Robotics for AI	5
+INMDL-08	Dynamic Logic	5	
+INMUBC-09	Ubiquitous Computing (15/16)		5
+LIX001M05	Natural Language Processing		5
+TBBI05E	Business Intelligence	5
+KIM.SCHR03	Handwriting Recognition		5
 
 Master thesis
 *INMAFST-08*	*Master Thesis*	*15*

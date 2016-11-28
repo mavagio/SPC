@@ -51,7 +51,7 @@ WBCS15001	Requirements Engineering and Software Startups	5
 
 *INBVB-08*	*Compiler Construction*		*5*
 *INBSQT-08*	*Software Quality Assurance & Testing* 	*5*
-WBCS15002	Short programming project	5
+*WBCS15002*	Short programming project	5
 
 
 

@@ -35,6 +35,16 @@ WINM1-07	Numerical Mathematics 1	5
 Free choice
 *WMCS13001*	*Computer Ethics*	*5*
 *WMCS14002*	*Geoinformation Systems Engineering*	*5*
+*INMPR-08*	*Pattern Recognition*			    *5*
+NACP-11	Computational Physics	5
+*KIM.ML09*	*Machine Learning* 	*5* 
+WIPOM-08	Problemsolving with Mathematica	5
+*INMNN-08*	*Neural Networks*	*5*
+*STMASP-12*	*Statistical Signal Processing (MSc)*	*5*	
+MLBI0801	Self-organisation of social systems	5
+KIM.CMB11	Cognitive Modeling: basic principles and methods	5
+WINM2-08	Numerical Mathematics 2	5
+WINM1-07	Numerical Mathematics 1	5
 
 Master thesis
 *INMAFST-08*	*Master Thesis*	*15*

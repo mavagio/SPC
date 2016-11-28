@@ -31,6 +31,14 @@ Guided choice
 Free choice
 *WMCS13001*	*Computer Ethics*	*5*
 *WMCS14002*	*Geoinformation Systems Engineering*	*5*
+*INMPR-08*	*Pattern Recognition*			    *5*
+*KIM.ML09*	*Machine Learning*	*5*	
+*INMSV-08*	*Scientific Visualisation*	*5*
+*TBROB-12*	*Robotics*		 *5*
+*INMASA-10*	*Advanced Software Architecture*	*5*	
+*TBBI05E*	*Business Intelligence*	*5*
+*TBSE05E*	*Systems Engineering*	*5*
+*EBM630B05*	*Sustainable and Integrated Inf. Systems*	*5*
 
 Master thesis
 *INMAFST-08*	*Master Thesis*	*15*

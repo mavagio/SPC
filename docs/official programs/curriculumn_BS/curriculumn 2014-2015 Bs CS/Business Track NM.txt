@@ -54,6 +54,7 @@ Minor/ electives
 *INBOS-08*	*Operating Systems*	*5*
 *INBSQT-08*	*Software Quality Assurance & Testing* 	*5*
 *INBVB-08*	*Compiler Construction*		*5*
+*WBCS15002*	*Short Programming Project*	*5*
 
 Bachelor's project
 *WBCS13000*	*Bachelor’s project*	*15*

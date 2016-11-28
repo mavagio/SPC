@@ -1,60 +1,60 @@
-﻿Study Curriculum
+Study Curriculum
 
 
-year   		 20142015
+
+Year	 20142015
+
 
 
 Study Programes
 
+
+
 Mandatory courses propaedeutic
-*INBIMP-09*	*Imperative Programming B*	*5*	
-*INBOI-08*	*Introduction to Computing Science*	*5*	
-*WPAI14002*	*Introduction to Logic (CS & MA)*	 *5*
+WPMA14005	Linear Algebra & Multivariable Calculus for AI&CS	5	
+INBADC-09	Algorithms and Data Structures in C	5	
+KIB.KI103	Artificial Intelligence 1	5	
+WPMA14001	Calculus for Computing Science	5	
+INBPC-08	Program Correctness	5	
+INBOI-08	Introduction to Computing Science	5	
+WBCS14003	Introduction to Scientific Computing	5	
+INBIMP-09	Imperative Programming B	5	
+INBDS-08	Discrete Structures	5	
+WBCS14002	Computer Architecture	5	
+INBOGP-08	Object Oriented Programming	5	
+WPAI14002	Introduction to Logic (CS & MA)	5	
 
-*WPMA14001*	*Calculus for Computing Science* 	*5*	
-*INBDS-08*	*Discrete Structures*	*5*	
-*WBCS14003*	*Introduction to Scientific Computing*	 *5*		
 
-*INBADC-09*	*Algorithms and Data Structures in C*	*5*	
-*WBCS14002*	*Computer Architecture* 	*5*
-*INBPC-08*	*Program Correctness*	*5*
+Mandatory courses post-propaedeutic
+KIB.SENS12	Systems and Signals	5	
+INBNC-08	Net-Computing	5	
+INBIIS-08	Introduction to Information Systems	5	
+INBGAD-10	Advanced Algorithms and Data Structures	5	
+INBPAR-08	Parallel Computing	5	
+INBGOP-09	Advanced OO Programming	5	
+WBCS14001	Computing Science: Ethical and Professional Issues	5	
+INBSASO-09	Software Analysis and Design	5	or	(WBCS16000	Problem Analysis and Software Design	5)
+INBTA-08	Languages and Machines	5	
+INBSE2-08	Software Engineering 2	5	
+INBSE1-08	Software Engineering 1	5	
+INBFP-08	Functional Programming	5	
+INBCG-08	Computer Graphics	5	
+INBVB-08	Compiler Construction	5	or	(INBOS-08	Operating Systems	5)
+WISTAKI-07	Statistics	5	
 
-*KIB.KI103*	*Artificial Intelligence 1* 	*5*
-*WPMA14005*	*Linear Algebra & Multivariable Calculus for AI&CS*	 *5*	
-*INBOGP-08*	*Object Oriented Programming*	*5*
-
-Mandatory courses post-propaedeutic 
-*INBGOP-09*	*Advanced OO Programming*	*5*
-*INBFP-08*	*Functional Programming*		 *5*
-*WISTAKI-07*	*Statistics*		*5*
-
-*INBIIS-08*	*Introduction to Information Systems*	*5*	
-*KIB.SENS12*	*Systems and Signals*	*5*
-*INBSASO-09*	*Software Analysis and Design*		*5*
-
-*INBGAD-10*	*Advanced Algorithms and Data Structures*	*5*	
-*WBCS14001*	*Computing Science: Ethical and Professional Issues* 	*5*
-*INBSE1-08*	*Software Engineering 1*	*5*
-
-*INBTA-08*	*Languages and Machines* 	*5*
-*INBPAR-08*	*Parallel Computing*		*5*
-*INBSE2-08*	*Software Engineering 2*	*5*
-
-*INBVB-08*	*Compiler Construction*		*5*	or	(INBOS-08	Operating Systems	5)
-*INBCG-08*	*Computer Graphics*			    *5*
-*INBNC-08*	*Net-Computing*		*5*
 
 Minor/ electives
-*INBSEC-08*	*Information Security* 	*5*
-*INBINTS-08*	*Introduction Intelligent Systems* 	*5*
-*INBSRE-08*	*Software Requirements Engineering*	*5*
-*WBCS15001*	*Requirements Engineering and Software Startups*	*5*
+INBKR-08	Knowledge Representation and Reasoning	5	
+INBSQT-08	Software Quality Assurance & Testing	5	
+INBSEC-08	Information Security	5	
+INBVB-08	Compiler Construction	5	or	(INBOS-08	Operating Systems	5)
+INBINTS-08	Introduction Intelligent Systems	5	
+INBSRE-08	Software Requirements Engineering	5	
+WBCS15001	Requirements Engineering and Software Startups	5	
+WBCS15002	Short Programming Project	5	
+INBOS-08	Operating Systems	5	
 
-*INBKR-08*	*Knowledge Representaion and Reasoning*	*5*
-*INBOS-08*	*Operating Systems*	*5*
-*INBSQT-08*	*Software Quality Assurance & Testing* 	*5*
-*INBVB-08*	*Compiler Construction*		*5*
 
 Bachelor's project
-*WBCS13000*	*Bachelor’s project*	*15*
+WBCS13000	Bachelor’s project	15	
 end

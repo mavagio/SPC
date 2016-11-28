@@ -33,6 +33,15 @@ Guided choice
 
 Free choice
 *WMCS13001*	*Computer Ethics*	*5*
+*INMPR-08*	*Pattern Recognition*			    *5*
+*NACP-11*	*Computational Physics*		 *5*
+*KIM.ML09*	*Machine Learning*	*5*		
+*WMCS15001*	*Neural Networks and Computational Intelligence*	*5*		
+*STMASP-12*	*Statistical Signal Processing (MSc)*	*5*
+*MLBI0801*	*Adv. self-organisation of social systems*		*5*
+*KIM.CMB11*	*Cognitive Modeling: basic principles and methods*	*5*
+*WINM2-08*	*Numerical Mathematics 2*		*5*
+*WINM1-07*	*Numerical Mathematics 1*		*5*
 
 Master thesis
 *INMAFST-08*	*Master Thesis*	*15*
