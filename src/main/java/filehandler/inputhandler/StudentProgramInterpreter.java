@@ -82,7 +82,7 @@ public class StudentProgramInterpreter extends ProgramInterpreter{
 		}
 		
 		//Fill in extra section
-		HashMap<String,Course> extra = interpreteSection( structureLines (findInterval(degree.getExtraCoursesField(),endKeyWord)));
+		HashMap<String,Course> extra = interpreteSection( structureLines (findInterval(degree.getExtraCoursesField(),keyWordExists("Honours College")?"Honours College":endKeyWord)));
 		if(extra != null){
 			newStudentProgram.setExtraCourses	(extra);
 		}else{

@@ -131,6 +131,16 @@ public abstract class ProgramInterpreter {
 		return newLines;
 	}
 	
+	/**Boolean function for checking if the keyword exists*/
+	protected boolean keyWordExists(String keyWord){	
+		for (String line : this.courseText) {	
+			if(line.toLowerCase().indexOf(keyWord.toLowerCase()) != -1){
+				return true;
+			}		
+		}
+		return false;
+	}
+	
 	
 	/**
 	 * Interprets student remarks, the remarks are the last chain of 
