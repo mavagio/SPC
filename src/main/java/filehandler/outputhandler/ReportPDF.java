@@ -1,6 +1,7 @@
 package main.java.filehandler.outputhandler;
 
 
+
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;
@@ -9,9 +10,9 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.HashMap;
 
+import main.java.filehandler.outputhandler.custompdf.PDFCellContent;
 import main.java.filehandler.outputhandler.custompdf.PDFCellHeader;
 import main.java.filehandler.outputhandler.custompdf.PDFGraphics;
-import main.java.filehandler.outputhandler.custompdf.PDFPCellContent;
 import main.java.filehandler.outputhandler.custompdf.PDFStyle;
 import main.java.types.Course;
 import main.java.types.program.StudentProgram;
@@ -519,26 +520,26 @@ public class ReportPDF {
 			}
 				
 			//Add the course code to the table
-			table.addCell(new PDFPCellContent(new Phrase(coruseCodes,style.getSmallNormal()),tempCol));
+			table.addCell(new PDFCellContent(new Phrase(coruseCodes,style.getSmallNormal()),tempCol));
 			
 			//Add the course name to the table
-			table.addCell(new PDFPCellContent(new Phrase(subProgram.get(coruseCodes).getCourseName(),style.getSmallNormal()),tempCol));
+			table.addCell(new PDFCellContent(new Phrase(subProgram.get(coruseCodes).getCourseName(),style.getSmallNormal()),tempCol));
 			
 			//Add the grade to the table
-			table.addCell(new PDFPCellContent(new Phrase(subProgram.get(coruseCodes).getGrade()+"",style.getSmallNormal()),tempCol));
+			table.addCell(new PDFCellContent(new Phrase(subProgram.get(coruseCodes).getGrade()+"",style.getSmallNormal()),tempCol));
 			
 
 			//Status chacker if grade is > 5.5 && is credit count is != 0
 			if( subProgram.get(coruseCodes).getCourseCredits()!=0){
-				table.addCell(new PDFPCellContent(new Phrase("Complete",style.getSmallNormal()),tempCol));
+				table.addCell(new PDFCellContent(new Phrase("Complete",style.getSmallNormal()),tempCol));
 			}else{
-				table.addCell(new PDFPCellContent(new Phrase("Not complete",style.getSmallNormal()),tempCol));
+				table.addCell(new PDFCellContent(new Phrase("Not complete",style.getSmallNormal()),tempCol));
 			}			
 			
 			//Add the credit to the table
-			table.addCell(new PDFPCellContent(new Phrase(subProgram.get(coruseCodes).getCourseCredits()+"",style.getSmallNormal()),tempCol));
+			table.addCell(new PDFCellContent(new Phrase(subProgram.get(coruseCodes).getCourseCredits()+"",style.getSmallNormal()),tempCol));
 			
-			PDFPCellContent cTemp = new PDFPCellContent(new Phrase("match",style.getSmallNormal()),tempCol);
+			PDFCellContent cTemp = new PDFCellContent(new Phrase("match",style.getSmallNormal()),tempCol);
 			cTemp.addElement(setCellImage(subProgram,coruseCodes));
 			table.addCell(cTemp);			
 		}
@@ -596,13 +597,13 @@ public class ReportPDF {
 			}
 				
 			//Add the course code to the table
-			table.addCell(new PDFPCellContent(new Phrase(coruseCodes,style.getSmallNormal()),tempCol));
+			table.addCell(new PDFCellContent(new Phrase(coruseCodes,style.getSmallNormal()),tempCol));
 			
 			//Add the course name to the table
-			table.addCell(new PDFPCellContent(new Phrase(subProgram.get(coruseCodes).getCourseName(),style.getSmallNormal()),tempCol));
+			table.addCell(new PDFCellContent(new Phrase(subProgram.get(coruseCodes).getCourseName(),style.getSmallNormal()),tempCol));
 						
 			//Add the credit to the table
-			table.addCell(new PDFPCellContent(new Phrase(subProgram.get(coruseCodes).getCourseCredits()+"",style.getSmallNormal()),tempCol));		
+			table.addCell(new PDFCellContent(new Phrase(subProgram.get(coruseCodes).getCourseCredits()+"",style.getSmallNormal()),tempCol));		
 		}
 	}
 

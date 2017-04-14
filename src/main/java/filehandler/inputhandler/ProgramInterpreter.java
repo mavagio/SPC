@@ -111,6 +111,7 @@ public abstract class ProgramInterpreter {
 	/**
 	 * Finds an interval given @param upperKeyWord and @param lowerKeyWord
 	 * Used in all *.txt files
+	 * @return the lines that are within the interval
 	 * */
 	protected ArrayList<String> findInterval(String upperKeyWord, String lowerKeyWord){
 		ArrayList<String> newLines = new ArrayList<String>();
@@ -126,8 +127,7 @@ public abstract class ProgramInterpreter {
 			if(line.toLowerCase().indexOf(upperKeyWord.toLowerCase()) != -1){
 				upperFound = true;
 			}			
-		}	
-		
+		}			
 		return newLines;
 	}
 	

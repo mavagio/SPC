@@ -3,18 +3,17 @@ package main.java.filehandler.outputhandler.custompdf;
 import com.itextpdf.text.BaseColor;
 import com.itextpdf.text.Element;
 import com.itextpdf.text.Phrase;
-
 import com.itextpdf.text.pdf.PdfPCell;
 
 /**
  * @author Martin Avagyan 
  */
 
-public class PDFPCellContent extends PdfPCell{
+public class PDFCellContent extends PdfPCell{
 
 	private BaseColor col;
 	
-	public PDFPCellContent(Phrase prs,BaseColor col){
+	public PDFCellContent(Phrase prs,BaseColor col){
 		super(prs);
 		this.col = col;
 

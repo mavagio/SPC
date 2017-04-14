@@ -9,9 +9,9 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.HashMap;
 
+import main.java.filehandler.outputhandler.custompdf.PDFCellContent;
 import main.java.filehandler.outputhandler.custompdf.PDFCellHeader;
 import main.java.filehandler.outputhandler.custompdf.PDFGraphics;
-import main.java.filehandler.outputhandler.custompdf.PDFPCellContent;
 import main.java.filehandler.outputhandler.custompdf.PDFStyle;
 import main.java.types.Course;
 import main.java.types.program.StudyProgram;
@@ -357,16 +357,16 @@ public class StudyProgramPDF {
 		for(String coruseCodes: alternatvies.keySet()){			
 			
 			//Add the course code to the table
-			table.addCell(new PDFPCellContent(new Phrase(coruseCodes,style.getSmallNormal()),tempCol));
+			table.addCell(new PDFCellContent(new Phrase(coruseCodes,style.getSmallNormal()),tempCol));
 			
 			//Add the course name to the table
-			table.addCell(new PDFPCellContent(new Phrase(alternativeCourses.get(coruseCodes).getCourseName(),style.getSmallNormal()),tempCol));
+			table.addCell(new PDFCellContent(new Phrase(alternativeCourses.get(coruseCodes).getCourseName(),style.getSmallNormal()),tempCol));
 						
 			//Add the credit to the table
-			table.addCell(new PDFPCellContent(new Phrase(alternativeCourses.get(coruseCodes).getCourseCredits()+"",style.getSmallNormal()),tempCol));	
+			table.addCell(new PDFCellContent(new Phrase(alternativeCourses.get(coruseCodes).getCourseCredits()+"",style.getSmallNormal()),tempCol));	
 			
 			PdfPCell cell;
-	        cell = new PdfPCell(new PDFPCellContent(new Phrase(alternatvies.get(coruseCodes).replaceAll("\t","    "),style.getSmallNormal()),color1));
+	        cell = new PdfPCell(new PDFCellContent(new Phrase(alternatvies.get(coruseCodes).replaceAll("\t","    "),style.getSmallNormal()),color1));
 	        cell.setColspan(3);
 	        table.addCell(cell);
 		}
@@ -431,13 +431,13 @@ public class StudyProgramPDF {
 			}
 			
 			//Add the course code to the table
-			table.addCell(new PDFPCellContent(new Phrase(coruseCodes,style.getSmallNormal()),tempCol));
+			table.addCell(new PDFCellContent(new Phrase(coruseCodes,style.getSmallNormal()),tempCol));
 			
 			//Add the course name to the table
-			table.addCell(new PDFPCellContent(new Phrase(subProgram.get(coruseCodes).getCourseName(),style.getSmallNormal()),tempCol));
+			table.addCell(new PDFCellContent(new Phrase(subProgram.get(coruseCodes).getCourseName(),style.getSmallNormal()),tempCol));
 						
 			//Add the credit to the table
-			table.addCell(new PDFPCellContent(new Phrase(subProgram.get(coruseCodes).getCourseCredits()+"",style.getSmallNormal()),tempCol));		
+			table.addCell(new PDFCellContent(new Phrase(subProgram.get(coruseCodes).getCourseCredits()+"",style.getSmallNormal()),tempCol));		
 		}
 	}
 

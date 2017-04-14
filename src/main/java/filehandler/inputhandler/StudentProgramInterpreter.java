@@ -24,7 +24,7 @@ public class StudentProgramInterpreter extends ProgramInterpreter{
 	private StudentProgram newStudentProgram;
 	
 	public StudentProgram interpreteProgram(){
-				
+		
 		newStudentProgram = new StudentProgram();
 		//Get current department
 		dept = ToolModel.getDepartment();
@@ -81,13 +81,21 @@ public class StudentProgramInterpreter extends ProgramInterpreter{
 			return null;
 		}
 		
-		//Fill in extra section
-		HashMap<String,Course> extra = interpreteSection( structureLines (findInterval(degree.getExtraCoursesField(),keyWordExists("Honours College")?"Honours College":endKeyWord)));
-		if(extra != null){
-			newStudentProgram.setExtraCourses	(extra);
+		//Check if there are lines between Extra courses and Honours courses
+		ArrayList<String> tempListForCheck = findInterval(degree.getExtraCoursesField(),"Honours College");
+		System.out.println("Size: " + tempListForCheck.size());
+		if(tempListForCheck.size() <0){
+			newStudentProgram.setExtraCourses(interpreteSection(new ArrayList<String>()));
+			System.out.println("The extra section is empty");
 		}else{
-			return null;
-		}
+			//Fill in extra section
+			HashMap<String,Course> extra = interpreteSection( structureLines (findInterval(degree.getExtraCoursesField(),endKeyWord)));
+			if(extra != null){
+				newStudentProgram.setExtraCourses(extra);
+			}else{
+				return null;
+			}
+		}	
 		
 		newStudentProgram.setStudyYear(interpreteYear( findInterval(year.getStart(),year.getEnd())));		
 		newStudentProgram.setStudentNumber(interpreteStudentNumber( findInterval(number.getStart(),number.getEnd())));
