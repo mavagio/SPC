@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SPC_1.8.6.jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SPC_1_8_6_jar</output-path>
+    <root id="archive" name="ProgressMatchChecker.jar">
+      <element id="module-output" name="ProgressMatchChecker" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/itextpdf.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/itextpdf-5.5.8-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/mvel2-2.2.8.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/itextpdf-5.5.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/itextpdf-5.5.8-javadoc.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

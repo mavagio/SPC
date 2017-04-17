@@ -1,0 +1,6 @@
+﻿Fixed release
+#
+# Write a message for tag:
+#   1.8.6
+# Lines starting with '#' will be ignored.
+
