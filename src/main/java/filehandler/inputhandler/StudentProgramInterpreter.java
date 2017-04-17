@@ -83,8 +83,8 @@ public class StudentProgramInterpreter extends ProgramInterpreter{
 		
 		//Check if there are lines between Extra courses and Honours courses
 		ArrayList<String> tempListForCheck = findInterval(degree.getExtraCoursesField(),"Honours College");
-		System.out.println("Size: " + tempListForCheck.size());
-		if(tempListForCheck.size() <0){
+		System.out.println("Line count: " + tempListForCheck.size());
+		if(tempListForCheck.size() <1){
 			newStudentProgram.setExtraCourses(interpreteSection(new ArrayList<String>()));
 			System.out.println("The extra section is empty");
 		}else{
