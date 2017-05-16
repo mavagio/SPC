@@ -68,8 +68,9 @@ public class ToolJToolBar extends JToolBar{
 		progList.setSelectedItem(0);
 		progList.setSize(50, progList.getPreferredSize().height);
 		progList.setForeground(Color.decode("#607D8B"));
-		
-		add(progList);
+
+		//TODO here I have removed prog list from the view
+		//add(progList);
 		add(btnChangeDegree);
 		
 	}
