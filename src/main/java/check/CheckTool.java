@@ -83,10 +83,9 @@ public class CheckTool {
 	 * Check for one student with one program
 	 * */
 	protected boolean checkProgrammes(StudentProgram studentProg, StudyProgram studyProg) {
-		boolean propadeuic,postProp,bachProj,minor;
+		boolean propadeuic,bachProj,minor;
 		
 		propadeuic = checkHashMaps(studyProg.getPropadeuic(), studentProg.getPropadeuic(), studyProg.getAlternativeCourses(),studentProg.getMatchedStudyProgram().getPropadeuic());
-		postProp =   checkHashMaps(studyProg.getPostPropadeuic(), studentProg.getPostPropadeuic(), studyProg.getAlternativeCourses(),studentProg.getMatchedStudyProgram().getPostPropadeuic());
 		bachProj =   checkHashMaps(studyProg.getBachelorProject(), studentProg.getBachelorProject(), studyProg.getAlternativeCourses(),studentProg.getMatchedStudyProgram().getBachelorProject());
 		
 		//check for minor
@@ -94,7 +93,7 @@ public class CheckTool {
 		
 		//If all the mandatory fields are matched with the given program
 		//The current program is accepted, and we will move on to next student
-		return  propadeuic && postProp && bachProj && minor;   
+		return  propadeuic && bachProj && minor;
 	}
 	
 	protected boolean checkForMinors(HashMap<String,Course> studyProgMap, HashMap<String,Course> studentProgMap,HashMap<String,Course> studentProgramStudyProgram){

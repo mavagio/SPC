@@ -303,7 +303,7 @@ public class ReportPDF {
 		addToChapterOne(subHeadingTwo(),catPart,program.getPostPropadeuic(),  program.getMatchedStudyProgram().getPostPropadeuic());
 
 		// 3 Sub chapter heading. Generate the post propaedeutic mandatory table
-		addToChapterOne(subHeadingThree(),catPart,program.getMinorElectives(), program.getMatchedStudyProgram().getMinorElectives());
+		//addToChapterOne(subHeadingThree(),catPart,program.getMinorElectives(), program.getMatchedStudyProgram().getMinorElectives());
 		
 		// 4 Sub chapter heading. Generate the post propaedeutic mandatory table
 		addToChapterOne(subHeadingFour(),catPart,program.getBachelorProject(),  program.getMatchedStudyProgram().getBachelorProject());
@@ -386,7 +386,7 @@ public class ReportPDF {
 	
 	// Sub 1.1
 	protected Paragraph subHeadingOne() {
-		return new Paragraph("Propaedeutic mandatory ", style.getMediumBold());
+		return new Paragraph("Compulsory courses ", style.getMediumBold());
 	}
 
 	// Sub 1.2
@@ -396,12 +396,12 @@ public class ReportPDF {
 
 	// Sub 1.3
 	protected Paragraph subHeadingThree() {
-		return new Paragraph("Minor and electives ", style.getMediumBold());
+		return new Paragraph("Electives / Minor ", style.getMediumBold());
 	}
 
 	// Sub 1.4
 	protected Paragraph subHeadingFour() {
-		return new Paragraph("Bachelor's project ", style.getMediumBold());
+		return new Paragraph("Bachelor project including essay ", style.getMediumBold());
 	}
 	
 	// Sub 1.5
@@ -412,7 +412,7 @@ public class ReportPDF {
 	
 	// Sub 2.1
 	protected Paragraph chTwoSubHeadingOne() {
-		return new Paragraph("Possible alternatives for propaedeutic mandatory", style.getMediumBold());
+		return new Paragraph("Possible alternatives for Compulsory courses", style.getMediumBold());
 	}
 	
 	// Sub 2.2
@@ -422,12 +422,12 @@ public class ReportPDF {
 
 	// Sub 2.3
 	protected Paragraph chTwoSubHeadingThree() {
-		return new Paragraph("Possible alternatives for minor and electives", style.getMediumBold());
+		return new Paragraph("Possible alternatives for Electives / Minor", style.getMediumBold());
 	}
 
 	// Sub 2.4
 	protected Paragraph chTwoSubHeadingFour() {
-		return new Paragraph("Possible alternatives for bachelor's project", style.getMediumBold());
+		return new Paragraph("Possible alternatives for Bachelor project", style.getMediumBold());
 	}
 		
 	/**

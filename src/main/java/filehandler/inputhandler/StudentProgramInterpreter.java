@@ -48,43 +48,56 @@ public class StudentProgramInterpreter extends ProgramInterpreter{
 		
 		newStudentProgram.setStudentNumber(interpreteStudentNumber( findInterval(number.getStart(),number.getEnd())));
 		newStudentProgram.setStudentName(interpreteStudentName( findInterval(name.getStart(),name.getEnd())));
-		
-		//Fill in propadeuic section
-		HashMap<String,Course> propadeuic = interpreteSection( structureLines (findInterval(degree.getMandatoryField(),endKeyWord)));
-		if(propadeuic != null){
-			newStudentProgram.setPropadeuic(propadeuic);
+
+
+		//Check if there are lines between Extra courses and Honours courses
+		ArrayList<String> tempListMandatory = findInterval(degree.getMandatoryField(),degree.getProjectField());
+		if(tempListMandatory.size() <1){
+			newStudentProgram.setPropadeuic(interpreteSection(new ArrayList<String>()));
 		}else{
-			return null;
+			//Fill in propadeuic section
+			HashMap<String,Course> propadeuic = interpreteSection( structureLines (findInterval(degree.getMandatoryField(),endKeyWord)));
+			if(propadeuic != null){
+				newStudentProgram.setPropadeuic(propadeuic);
+			}else{
+				return null;
+			}
 		}
-		
-		/*//Fill in post propadeuic section
-		HashMap<String,Course> postpropa = interpreteSection( structureLines (findInterval(degree.getPostMandatoryField(),endKeyWord)));
-		if(postpropa != null){
-			newStudentProgram.setPostPropadeuic	(postpropa);
+
+
+
+
+		//Check if there are lines between Extra courses and Honours courses
+		ArrayList<String> tempListOptional = findInterval(degree.getOptionalField(),degree.getExtraCoursesField());
+		if(tempListOptional.size() <1){
+			newStudentProgram.setMinorElectives(interpreteSection(new ArrayList<String>()));
 		}else{
-			return null;
-		}*/
-		
-		//Fill in optional section
-		HashMap<String,Course> optional = interpreteSection( structureLines (findInterval(degree.getOptionalField(),endKeyWord)));
-		if(optional != null){
-			newStudentProgram.setMinorElectives	(optional);
-		}else{
-			return null;
+			//Fill in optional section
+			HashMap<String,Course> optional = interpreteSection( structureLines (findInterval(degree.getOptionalField(),endKeyWord)));
+			if(optional != null){
+				newStudentProgram.setMinorElectives	(optional);
+			}else{
+				return null;
+			}
 		}
-		
-		//Fill in project section
-		HashMap<String,Course> project = interpreteSection( structureLines (findInterval(degree.getProjectField(),endKeyWord)));
-		if(project != null){
-			newStudentProgram.setBachelorProject	(project);
+
+		//Check if there are lines between Extra courses and Honours courses
+		ArrayList<String> tempListProject = findInterval(degree.getProjectField(),degree.getOptionalField());
+		if(tempListProject.size() <1){
+			newStudentProgram.setBachelorProject(interpreteSection(new ArrayList<String>()));
 		}else{
-			return null;
+			//Fill in project section
+			HashMap<String,Course> project = interpreteSection( structureLines (findInterval(degree.getProjectField(),endKeyWord)));
+			if(project != null){
+				newStudentProgram.setBachelorProject	(project);
+			}else{
+				return null;
+			}
 		}
 		
 		//Check if there are lines between Extra courses and Honours courses
-		ArrayList<String> tempListForCheck = findInterval(degree.getExtraCoursesField(),"Honours College");
-		System.out.println("Line count: " + tempListForCheck.size());
-		if(tempListForCheck.size() <1){
+		ArrayList<String> tempListExtraCuric = findInterval(degree.getExtraCoursesField(),"Honours College");
+		if(tempListExtraCuric.size() <1){
 			newStudentProgram.setExtraCourses(interpreteSection(new ArrayList<String>()));
 			System.out.println("The extra section is empty");
 		}else{
