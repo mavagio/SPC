@@ -218,7 +218,7 @@ public class StudyProgramPDF {
 		addToChapterOne(subHeadingOne(),catPart,program.getPropadeuic(),program.getAlternativeCourses());
 		
 		// 1.2 Sub chapter heading. Generate the post propaedeutic mandatory table
-		addToChapterOne(subHeadingTwo(),catPart,program.getPostPropadeuic(),program.getAlternativeCourses());
+		//addToChapterOne(subHeadingTwo(),catPart,program.getPostPropadeuic(),program.getAlternativeCourses());
 
 		// 1.3 Sub chapter heading. Generate the post propaedeutic mandatory table
 		addToChapterOne(subHeadingThree(),catPart,program.getMinorElectives(),program.getAlternativeCourses());
@@ -270,22 +270,22 @@ public class StudyProgramPDF {
 	
 	// Sub 1.1
 	protected Paragraph subHeadingOne() {
-		return new Paragraph("Propaedeutic mandatory ", style.getMediumBold());
+		return new Paragraph("Compulsory courses ", style.getMediumBold());
 	}
 
 	// Sub 1.2
-	protected Paragraph subHeadingTwo() {
+	/*protected Paragraph subHeadingTwo() {
 		return new Paragraph("Post-propaedeutic mandatory ", style.getMediumBold());
-	}
+	}*/
 
 	// Sub 1.3
 	protected Paragraph subHeadingThree() {
-		return new Paragraph("Minor and electives ", style.getMediumBold());
+		return new Paragraph("Electives / Minor ", style.getMediumBold());
 	}
 
 	// Sub 1.4
 	protected Paragraph subHeadingFour() {
-		return new Paragraph("Bachelor's project ", style.getMediumBold());
+		return new Paragraph("Bachelor project including essay ", style.getMediumBold());
 	}
 	
 	// Sub 1.5

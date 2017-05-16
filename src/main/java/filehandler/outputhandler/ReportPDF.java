@@ -493,6 +493,9 @@ public class ReportPDF {
 	 * The following function checks if the section is correctly chosen
 	 * */
 	private boolean isComplete(HashMap<String,Course> subProgram){
+		//Check if the hashmap is empty
+		if(subProgram.isEmpty()) return false;
+		//Check if all the courses matched
 		for(String coruseCodes: subProgram.keySet()){	
 			System.out.println(subProgram.get(coruseCodes).isMatched());
 			if(subProgram.get(coruseCodes).isMatched() == 0){
