@@ -9,6 +9,8 @@ tmp/
 local.properties
 .settings/
 .loadpath
+.test
+test/
 
 # Eclipse Core
 

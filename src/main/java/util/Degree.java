@@ -56,7 +56,7 @@ public class Degree {
 	}
 	
 	public ArrayList<String> getAllFields(){
-		return new ArrayList<String>(Arrays.asList(mandatoryField,postMandatoryField,optionalField,projectField));
+		return new ArrayList<String>(Arrays.asList(mandatoryField,optionalField,projectField));
 	}
 
 	public String getExtraCoursesField() {

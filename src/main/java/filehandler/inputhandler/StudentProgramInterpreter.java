@@ -57,13 +57,13 @@ public class StudentProgramInterpreter extends ProgramInterpreter{
 			return null;
 		}
 		
-		//Fill in post propadeuic section
+		/*//Fill in post propadeuic section
 		HashMap<String,Course> postpropa = interpreteSection( structureLines (findInterval(degree.getPostMandatoryField(),endKeyWord)));
 		if(postpropa != null){
 			newStudentProgram.setPostPropadeuic	(postpropa);
 		}else{
 			return null;
-		}
+		}*/
 		
 		//Fill in optional section
 		HashMap<String,Course> optional = interpreteSection( structureLines (findInterval(degree.getOptionalField(),endKeyWord)));
