@@ -54,13 +54,17 @@ public class ToolController {
 		public void actionPerformed(ActionEvent e) {				
 			Object source = e.getSource();
 			if (source instanceof JButton) {
-				if (ToolModel.degree.equals("BS")) {
+				/*if (ToolModel.degree.equals("BS")) {
 					ToolModel.setDegree("MS");
 					((JButton) source).setText("Change Degree " + ToolModel.degree);
 				} else {
 					ToolModel.setDegree("BS");
 					((JButton) source).setText("Change Degree " + ToolModel.degree);
-				}
+				}*/
+				//TODO text here is not in the best way, it should be placed in messages
+				ToolView.displayWarningMessage("This version of the program does not support master degree." +
+						" \n Please refer an older version form the website \n" +
+						"https://martinavagyan.github.io/SPC/");
 				resetAll();
 			}
 		}

@@ -300,10 +300,10 @@ public class ReportPDF {
 		addToChapterOne( subHeadingOne(),catPart,program.getPropadeuic(), program.getMatchedStudyProgram().getPropadeuic());			
 
 		// 2 Sub chapter heading. Generate the post propaedeutic mandatory table	
-		addToChapterOne(subHeadingTwo(),catPart,program.getPostPropadeuic(),  program.getMatchedStudyProgram().getPostPropadeuic());
+		//addToChapterOne(subHeadingTwo(),catPart,program.getPostPropadeuic(),  program.getMatchedStudyProgram().getPostPropadeuic());
 
 		// 3 Sub chapter heading. Generate the post propaedeutic mandatory table
-		//addToChapterOne(subHeadingThree(),catPart,program.getMinorElectives(), program.getMatchedStudyProgram().getMinorElectives());
+		addToChapterOne(subHeadingThree(),catPart,program.getMinorElectives(), program.getMatchedStudyProgram().getMinorElectives());
 		
 		// 4 Sub chapter heading. Generate the post propaedeutic mandatory table
 		addToChapterOne(subHeadingFour(),catPart,program.getBachelorProject(),  program.getMatchedStudyProgram().getBachelorProject());
@@ -352,7 +352,7 @@ public class ReportPDF {
 		addToChapterTwo(chTwoSubHeadingOne(),catPart,program.filterAccpeted(program.getMatchedStudyProgram().getPropadeuic()));
 		
 		// 2.2 Sub chapter heading. Generate the post propaedeutic mandatory table
-		addToChapterTwo(chTwoSubHeadingTwo(),catPart,program.filterAccpeted(program.getMatchedStudyProgram().getPostPropadeuic()));
+		//addToChapterTwo(chTwoSubHeadingTwo(),catPart,program.filterAccpeted(program.getMatchedStudyProgram().getPostPropadeuic()));
 
 		// 2.3 Sub chapter heading. Generate the post propaedeutic mandatory table
 		addToChapterTwo(chTwoSubHeadingThree(),catPart,program.filterAccpeted(program.getMatchedStudyProgram().getMinorElectives()));

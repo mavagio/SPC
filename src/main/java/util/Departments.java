@@ -32,7 +32,7 @@ public class Departments {
 				"Guided choice", "Free choice", "Master thesis","Additional courses"), "Courses",
 				new Interval("Account Date",
 						"Study programme is under consideration"),
-				new Interval("", "Process:"), new Interval("", "Process:"),new Interval("Process:", "Let er op")));
+				new Interval("", "Process:"), new Interval("", "Process:"),new Interval("Process:", "You are applied")));
 
 		// Include mathematics department
 		departs.put("Mathematic", new Department(new Degree(
