@@ -40,12 +40,12 @@ public class StudyProgramInterpreter extends ProgramInterpreter{
 			return null;
 		}
 		
-		HashMap<String,Course> postpropa = interpreteSection((findInterval(degree.getPostMandatoryField(),degree.getOptionalField())));
+		/*HashMap<String,Course> postpropa = interpreteSection((findInterval(degree.getPostMandatoryField(),degree.getOptionalField())));
 		if(postpropa != null){
 			newProgram.setPostPropadeuic(postpropa);
 		}else{
 			return null;
-		}
+		}*/
 		
 		HashMap<String,Course> optional = interpreteSection((findInterval(degree.getOptionalField(),degree.getProjectField())));
 		if(optional != null){

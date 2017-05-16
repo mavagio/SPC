@@ -26,9 +26,9 @@ public class Departments {
 		
 		// Include computing science department
 		departs.put("Computing Science", new Department(new Degree(
-				"Mandatory courses propaedeutic",
-				"Mandatory courses post-propaedeutic", "Minor/ electives",
-				"Bachelor's project","Extra curriculair courses"), new Degree("Mandatory courses",
+				"Compulsory courses / Major",
+				"Electives / Minor", "Electives / Minor",
+				"Bachelorproject including essay","Extracurricular courses"), new Degree("Mandatory courses",
 				"Guided choice", "Free choice", "Master thesis","Additional courses"), "Courses",
 				new Interval("Account Date",
 						"Study programme is under consideration"),
